@@ -1,6 +1,9 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
+$light-gray: #777;
+
 body {
   padding-top: 60px;
 }
@@ -39,7 +42,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #777;
+  color: $light-gray;
 }
 
 p {
@@ -59,7 +62,7 @@ p {
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-    color: #fff;
+    color: $light-gray;
     text-decoration: none;
   }
 }
